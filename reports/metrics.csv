@@ -1,0 +1,6 @@
+,pr_auc,roc_auc,precision_at_budget,recall_at_budget
+boosting_undersampled,0.8134,0.9968,0.5933,0.7807
+logistic_plain,0.8095,0.9944,0.62,0.8158
+logistic_balanced,0.7976,0.995,0.6133,0.807
+boosting_weighted,0.7869,0.995,0.5867,0.7719
+forest_balanced,0.7435,0.991,0.5933,0.7807

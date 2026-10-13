@@ -1,0 +1,43 @@
+{
+  "transactions": 120000,
+  "fraud_rate": 0.0039,
+  "test_fraud_cases": 114,
+  "metrics": {
+    "boosting_undersampled": {
+      "pr_auc": 0.8134,
+      "roc_auc": 0.9968,
+      "precision_at_budget": 0.5933,
+      "recall_at_budget": 0.7807
+    },
+    "logistic_plain": {
+      "pr_auc": 0.8095,
+      "roc_auc": 0.9944,
+      "precision_at_budget": 0.62,
+      "recall_at_budget": 0.8158
+    },
+    "logistic_balanced": {
+      "pr_auc": 0.7976,
+      "roc_auc": 0.995,
+      "precision_at_budget": 0.6133,
+      "recall_at_budget": 0.807
+    },
+    "boosting_weighted": {
+      "pr_auc": 0.7869,
+      "roc_auc": 0.995,
+      "precision_at_budget": 0.5867,
+      "recall_at_budget": 0.7719
+    },
+    "forest_balanced": {
+      "pr_auc": 0.7435,
+      "roc_auc": 0.991,
+      "precision_at_budget": 0.5933,
+      "recall_at_budget": 0.7807
+    }
+  },
+  "best_by_pr_auc": "boosting_undersampled",
+  "operating_point_at_80pct_precision": {
+    "threshold": 0.9676780973719115,
+    "precision": 0.8,
+    "recall": 0.7368421052631579
+  }
+}
